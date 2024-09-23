@@ -875,6 +875,7 @@ section,
 }
 
 .hero .container {
+    padding-left: 30px;
   position: relative;
   z-index: 3;
     text-align: left;
@@ -882,16 +883,31 @@ section,
 
 .hero h2 {
   margin: 0;
+    padding-left: 20px;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 600;
+    box-sizing: 120px;
+    border-radius: 19px 19px 19px 0px;
+-webkit-border-radius: 19px 19px 19px 0px;
+-moz-border-radius: 19px 19px 19px 0px;
+background: rgba(14, 16, 34, 0.64);
+border: 1px solid #3e00ff;
  
 }
 
 .hero p {
     margin: 0;
   font-size: 24px;
-    text-align: left
+    text-align: left;
+    padding-left: 20px;
+border-radius: 0px 0px 19px 19px;
+-webkit-border-radius: 0px 0px 19px 19px;
+-moz-border-radius: 0px 0px 19px 19px;
+background: #3e00ff;
+border: 1px solid #3e00ff;
   color: var(--heading-color);
+     width: 390px;
+    margin-bottom:110px;
 }
 
 .hero .btn-get-started {
@@ -1156,7 +1172,7 @@ text-align: left;
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio p{
- font-size:26pt;
+    font-size:26pt;
     text-align: left;
     margin-left: 80px;
     margin-right: 80px;
@@ -1209,8 +1225,8 @@ text-align: left;
 
 .portfolio .portfolio-content img {
   transition: 0.3s;
-  position: relative;
   z-index: 1;
+padding-left: 85PX;
 }
 
 .portfolio .portfolio-content .portfolio-info {
@@ -1222,9 +1238,9 @@ text-align: left;
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
-  padding-right: 50px;
+    text-align: center
 }
 
 .portfolio .portfolio-content .portfolio-info h4 a {
